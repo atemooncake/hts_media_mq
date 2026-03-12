@@ -294,7 +294,7 @@ def color_rows(row):
 # ----------------------------
 # UI
 # ----------------------------
-st.title("HTS Media · Campaign Risk & Revenue Dashboard")
+st.title("Campaign Risk & Revenue Dashboard")
 
 tab1, tab2, tab3 = st.tabs(["Overview", "Priority List", "Deep Dive"])
 
@@ -557,4 +557,4 @@ with tab3:
     else:
         st.info("Not enough date/budget data to render trajectory.")
 
-st.caption("Prototype — Fictional data — HTS Media interview exercise")
+st.caption("Prototype — Fictional data ")
